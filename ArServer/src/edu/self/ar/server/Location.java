@@ -1,5 +1,8 @@
 package edu.self.ar.server;
 
+import com.googlecode.objectify.annotation.Entity;
+
+@Entity
 public class Location {
 
 	private long latitude;

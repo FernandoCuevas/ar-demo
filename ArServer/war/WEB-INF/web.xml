@@ -15,7 +15,7 @@
   <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
   <init-param>
    <param-name>services</param-name>
-   <param-value>edu.self.ar.server.UserEndpoint,edu.self.ar.server.LocationEndpoint</param-value>
+   <param-value>edu.self.ar.server.UserEndpoint</param-value>
   </init-param>
  </servlet>
  <servlet-mapping>

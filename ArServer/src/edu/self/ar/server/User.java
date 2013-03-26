@@ -10,8 +10,8 @@ public class User {
 	@Id
 	public String phone;
 	public String name;
-	public Location lastKnownLocation;
-	public List<String> friendsPhone;
+//	public Location lastKnownLocation;
+	//public List<String> friendsPhone;
 	
 	public User() {
 		// TODO Auto-generated constructor stub
@@ -20,13 +20,14 @@ public class User {
 	
 	
 	
-	public User(String phone, String name, Location lastKnownLocation,
-			List<String> friendsPhone) {
+	public User(String phone, String name
+			//,Location lastKnownLocation
+			,List<String> friendsPhone) {
 		super();
 		this.phone = phone;
 		this.name = name;
-		this.lastKnownLocation = lastKnownLocation;
-		this.friendsPhone = friendsPhone;
+	//	this.lastKnownLocation = lastKnownLocation;
+	//	this.friendsPhone = friendsPhone;
 	}
 
 
@@ -44,19 +45,19 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Location getLastKnownLocation() {
-		return lastKnownLocation;
-	}
-	public void setLastKnownLocation(Location lastKnownLocation) {
-		this.lastKnownLocation = lastKnownLocation;
-	}
-	public List<String> getFriendsPhone() {
-		return friendsPhone;
-	}
-	public void setFriendsPhone(List<String> friendsPhone) {
-		this.friendsPhone = friendsPhone;
-	}
-	 
+//	public Location getLastKnownLocation() {
+//		return lastKnownLocation;
+//	}
+//	public void setLastKnownLocation(Location lastKnownLocation) {
+//		this.lastKnownLocation = lastKnownLocation;
+//	}
+//	public List<String> getFriendsPhone() {
+//		return friendsPhone;
+//	}
+//	public void setFriendsPhone(List<String> friendsPhone) {
+//		this.friendsPhone = friendsPhone;
+//	}
+//	 
 	
 
 }

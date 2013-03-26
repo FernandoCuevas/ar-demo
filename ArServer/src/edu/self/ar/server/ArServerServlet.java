@@ -13,7 +13,7 @@ public class ArServerServlet extends HttpServlet {
 		UserEndpoint userEndpoint = new UserEndpoint();
 		User newUser = new User();
 		newUser.setName(UUID.randomUUID().toString());
-		userEndpoint.register(newUser);
+	//	userEndpoint.register(newUser);
 		ObjectifyDatastore od = new ObjectifyDatastore();
 		for(User user : od.listUsers()){
 			resp.getWriter().println(user.getName());
